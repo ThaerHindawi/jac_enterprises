@@ -17,13 +17,13 @@ function NasaImageCard({ nasaImage }: Props) {
           <h3>{nasaImage.title}</h3>
           <p>{nasaImage.date_created}</p>
           <p>{nasaImage.description}</p>
-          <div className="keywords">
+          {/* <div className="keywords">
             {nasaImage.keywords.map((keyword) => (
               <span className="keyword" key={keyword}>
                 {keyword}
               </span>
             ))}
-          </div>
+          </div> */}
         </div>
       </a>
     </article>
