@@ -1,3 +1,11 @@
+/*
+EFEBE9  -EBB
+83A99F  -SEA NYMPH
+6F6159  -PINE CONE
+5B9AAB  -HIPPIE BLUE
+1E1B21  -BALTIC SEA
+*/
+
 :root {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
@@ -29,12 +37,13 @@
     max-width: 1440px;
     text-align: center;
    }
+   .header{
+    background-color: #1E1B21;
+   }
 
-   /* div {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 960px;
-   } */
+   .main-section{
+    background-color: #EFEBE9;
+   }
 
  
   h1 {
