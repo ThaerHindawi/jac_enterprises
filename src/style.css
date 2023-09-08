@@ -45,6 +45,14 @@ EFEBE9  -EBB
     background-color: #EFEBE9;
    }
 
+  .about-section{
+    width:50%;
+    float: left;
+  }
+  .contact-section{
+    width:50%;
+    float:right;
+  }
  
   h1 {
     font-size: 3.2em;
