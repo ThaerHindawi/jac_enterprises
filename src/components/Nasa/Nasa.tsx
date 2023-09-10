@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import NasaImageCards from "./NasaImageCards";
 
 import "./Nasa.css";
+import Contact from "../Contacts/Contact";
 
 export interface NasaImage {
   title: string;
@@ -40,15 +41,16 @@ function Nasa(props: Props) {
         };
       }
     );
-    setImages(transformedImages);
+    setImages(transformedImages.slice(0, 8));
   }
 
   return (
     <section className="container">
-        <div>
-            <h1>Nasa Images</h1>
-        </div>
+      <div>
+        <h1>Nasa Images</h1>
+      </div>
       <NasaImageCards nasaImages={images} />
+      <Contact />
     </section>
   );
 }

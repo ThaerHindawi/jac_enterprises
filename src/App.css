@@ -5,3 +5,8 @@
   text-align: center;
 }
 
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
