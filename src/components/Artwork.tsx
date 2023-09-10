@@ -11,7 +11,7 @@ interface Artwork {
     met_url: string
 }
 
-function Artwork(props: Artwork) {
+function Artwork() {
 
     const [images, setImages] = useState<Artwork[]>([]);
 

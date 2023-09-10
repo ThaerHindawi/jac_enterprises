@@ -1,0 +1,42 @@
+.overview-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 3rem;
+  text-align: left;
+}
+
+.wrapper {
+  display: flex;
+  width: 95%;
+  overflow: hidden;
+  gap: 5%;
+}
+
+.about {
+  flex: 2;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.contact a {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.contact a img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.contact a h4 {
+  margin-left: 1rem;
+}

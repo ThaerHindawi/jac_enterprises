@@ -1,13 +1,15 @@
-import { useState } from 'react'
-import './App.css'
-import Artwork from './components/Artwork';
+import { useState } from "react";
+import "./App.css";
+import Nasa from "./components/Nasa/Nasa";
+import Artwork from "./components/Artwork";
 
 function App() {
-
   return (
-    <Artwork />
-  )
-
+    <>
+      <Nasa />
+      <Artwork />
+    </>
+  );
 }
 
-export default App
+export default App;
