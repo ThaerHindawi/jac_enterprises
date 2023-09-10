@@ -1,14 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
-import Nasa from './components/Nasa/Nasa'
+import { useState } from "react";
+import "./App.css";
+import Nasa from "./components/Nasa/Nasa";
+import Artwork from "./components/Artwork";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <Nasa />
-  )
+    <>
+      <Nasa />
+      <Artwork />
+    </>
+  );
 }
 
-export default App
+export default App;
