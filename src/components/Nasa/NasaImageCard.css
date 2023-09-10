@@ -26,13 +26,13 @@
   font-size: 1.1rem;
 }
 
-@media screen and (max-width: 977px) {
+@media screen and (max-width: 1042px) {
   .card {
     width: 42%;
   }
 }
 
-@media screen and (max-width: 617px) {
+@media screen and (max-width: 780px) {
   .card {
     width: 90%;
   }
