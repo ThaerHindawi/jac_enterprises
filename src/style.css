@@ -13,7 +13,7 @@ EFEBE9  -EBB
   
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
-    background-color: #242424;
+    /* background-color: #242424; */
   
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -58,6 +58,8 @@ EFEBE9  -EBB
     font-size: 3.2em;
     line-height: 1.1;
   }
+
+  
   
   button {
     border-radius: 8px;
