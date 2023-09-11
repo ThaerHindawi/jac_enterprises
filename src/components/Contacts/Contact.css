@@ -4,12 +4,13 @@
   width: 100%;
   margin-top: 3rem;
   text-align: left;
+  margin-bottom: 5rem;
+
 }
 
 .wrapper {
   display: flex;
   width: 95%;
-  overflow: hidden;
   gap: 5%;
 }
 
@@ -39,4 +40,10 @@
 
 .contact a h4 {
   margin-left: 1rem;
+}
+
+@media screen and (max-width: 700px) {
+  .wrapper {
+    flex-direction: column;
+  }
 }
