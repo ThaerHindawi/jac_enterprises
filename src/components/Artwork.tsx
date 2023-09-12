@@ -63,7 +63,7 @@ function Artwork() {
   }
 
   return (
-    <section className="container">
+    <section id="artwork" className="container">
       <div>
         <h1 className="mb-4">Art Gallery</h1>
       </div>

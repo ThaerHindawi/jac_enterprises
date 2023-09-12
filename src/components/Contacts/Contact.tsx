@@ -63,7 +63,7 @@ function Contact() {
   }
 
   return (
-    <div className="overview-wrapper">
+    <div id="about" className="container overview-wrapper">
       <div className="wrapper">
         <About />
         <div className="contacts">
