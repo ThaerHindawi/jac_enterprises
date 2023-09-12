@@ -68,7 +68,7 @@ function Contact() {
         <About />
         <div className="contacts">
           <div>
-            <h3>Contacts</h3>
+            <h3>Website Developers</h3>
           </div>
           {contacts.map((contact) => {
             return (

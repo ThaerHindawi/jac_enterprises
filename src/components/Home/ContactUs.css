@@ -2,6 +2,12 @@
  	Contact Section
 ---------------------*/
 
+.contact-us {
+    /* margin-top: 8rem; */
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+}
+
 form {
   max-width: 420px;
   margin: 50px auto;
