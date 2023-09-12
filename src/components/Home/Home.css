@@ -1,0 +1,99 @@
+/*----------------
+ 	Main Section
+----------------*/
+.main_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 125px 100px;
+}
+
+@media (max-width: 1000px) {
+  .main_section {
+    padding: 100px 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .main_section {
+    padding: 80px 30px;
+  }
+}
+
+.main_section h3.title {
+  /* color: #414a4f; */
+  text-transform: capitalize;
+  font: bold 32px "Open Sans", sans-serif;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.main_section p {
+  max-width: 800px;
+  text-align: center;
+  margin-bottom: 35px;
+  padding: 0 20px;
+  line-height: 2;
+}
+
+.main {
+  position: relative;
+  justify-content: center;
+  min-height: 100vh;
+  color: #fff;
+  text-align: center;
+}
+
+.main .background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  z-index: -1;
+}
+
+.main .background-image:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #414a4f;
+  opacity: 0.25;
+}
+
+.main h1 {
+  font: bold 60px "Open Sans", sans-serif;
+  margin-bottom: 15px;
+}
+
+.main h3 {
+  font: normal 28px "Open Sans", sans-serif;
+  margin-bottom: 40px;
+}
+
+.main a.btn {
+  padding: 20px 46px;
+}
+
+@media (max-width: 800px) {
+  .main {
+    min-height: 600px;
+  }
+
+  .main h1 {
+    font-size: 48px;
+  }
+
+  .main h3 {
+    font-size: 24px;
+  }
+
+  .main a.btn {
+    padding: 15px 40px;
+  }
+}
