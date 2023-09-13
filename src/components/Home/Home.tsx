@@ -1,4 +1,4 @@
-import texturedBanner from "../../assets/textured-banner.avif";
+import texturedBanner from "../../assets/children-education.jpg";
 import "./Home.css";
 
 function Home() {

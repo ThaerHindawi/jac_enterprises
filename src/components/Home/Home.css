@@ -25,6 +25,8 @@
   /* color: #414a4f; */
   text-transform: capitalize;
   font: bold 32px "Open Sans", sans-serif;
+  font-family: 'Rocher';
+
   margin-bottom: 35px;
   text-align: center;
 }
@@ -53,6 +55,8 @@
   height: 100%;
   background-size: cover;
   z-index: -1;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
 }
 
 .main .background-image:after {
@@ -68,11 +72,15 @@
 
 .main h1 {
   font: bold 60px "Open Sans", sans-serif;
+  font-family: 'Rocher';
+
   margin-bottom: 15px;
 }
 
 .main h3 {
   font: normal 28px "Open Sans", sans-serif;
+  font-family: 'Rocher';
+
   margin-bottom: 40px;
 }
 

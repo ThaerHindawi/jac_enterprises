@@ -1,3 +1,8 @@
+@font-face{
+  font-family: 'Rocher';
+  src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -25,11 +30,13 @@ a:hover {
 }
 
 body {
+  font-family: 'Rocher';
   margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  cursor: url('./assets/pointer_ship.png'), auto;
 }
 
 h1 {
@@ -85,7 +92,7 @@ button:focus-visible {
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
-  cursor: pointer;
+  cursor: url('./assets/cursor.cur'), auto;
   transition: border-color 0.25s;
 }
 
