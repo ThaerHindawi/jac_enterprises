@@ -41,12 +41,12 @@ textarea {
 }
 
 [type="submit"] {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-family: inherit;
   width: 100%;
   background: #353333;
   border-radius: 5px;
   border: 0;
-  cursor: pointer;
+  cursor: url('../../assets/cursor.cur'), auto;
   color: white;
   font-size: 24px;
   padding-top: 10px;

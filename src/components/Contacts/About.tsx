@@ -26,12 +26,13 @@ function About() {
   async function fetchAboutHandler() {
     try {
       // try to fetch the data from server if it failed will return the default data
-      const res = await fetch(API_URL());
-      const data = await res.json();
-      console.log(data);
-      const transformedAbout: IAbout = data;
-      console.log(transformedAbout);
-      setAbout(transformedAbout);
+      if (import.meta.env.MODE === "development") {
+        const res = await fetch(API_URL());
+        const data = await res.json();
+        const transformedAbout: IAbout = data;
+        console.log(transformedAbout);
+        setAbout(transformedAbout);
+      }
     } catch (error) {
       const mute = error;
     }

@@ -14,7 +14,7 @@ function Home() {
         We are an organization that specializes in offering niche adventures
         dedicated to learning about Earth's various ecosystems and unique
         terrains. Our motto is, "Vincit Qui Se Vincit" which means, "He/she
-        conquers who conquers him/herself.
+        conquers who conquers him/herself".
       </h3>
     </section>
   );

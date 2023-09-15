@@ -40,7 +40,7 @@ function Nasa(props: Props) {
         };
       }
     );
-    setImages(transformedImages.slice(0, 8));
+    setImages(transformedImages.slice(0, 14));
   }
 
   return (

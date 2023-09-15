@@ -51,12 +51,14 @@ function Contact() {
   async function fetchContactsHandler() {
     try {
       // try to fetch the data from server if it failed will return the default data
-      const res = await fetch(API_URL());
-      const data = await res.json();
-      const transformedContacts: IContact[] = data.map((item: any) => {
-        return item;
-      });
-      setContacts(transformedContacts);
+      if (import.meta.env.MODE === "development") {
+        const res = await fetch(API_URL());
+        const data = await res.json();
+        const transformedContacts: IContact[] = data.map((item: any) => {
+          return item;
+        });
+        setContacts(transformedContacts);
+      }
     } catch (error) {
       const mute = error;
     }

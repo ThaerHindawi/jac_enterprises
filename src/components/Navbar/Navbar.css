@@ -57,6 +57,12 @@ header nav li:last-child {
   }
 }
 
+@media (max-width: 430px) {
+  header nav li {
+    margin: 0 4px;
+  }
+}
+
 ul,
 nav {
   list-style: none;
